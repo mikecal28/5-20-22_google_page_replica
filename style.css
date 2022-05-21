@@ -16,7 +16,7 @@
 }
 
 .navbar-container {
-  padding: 15px 0px;
+  padding: 10px 3px;
   display: grid;
   grid-template-columns: 2.5fr 28fr 4fr;
   gap: 5px;
@@ -37,6 +37,15 @@
 
 .dot-menu-icon-wrapper {
   font-size: 18px;
+  padding: 8px;
+  margin: 0;
+}
+
+.dot-menu-icon-wrapper:hover {
+  padding: 7px;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 50%;
+  background-color: rgb(238, 238, 238);
 }
 
 .user-icon-wrapper {
@@ -75,7 +84,7 @@ a {
   letter-spacing: 0;
 }
 
-.navbar-container a:hover {
+.navbar-container a:hover:not(.dot-menu-icon-wrapper) {
   text-decoration: underline;
 }
 
