@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page-container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1.15fr 18fr 1.15fr;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  font-weight: 100;
+}
+
+.navbar-container {
+  padding: 15px 0px;
+  display: grid;
+  grid-template-columns: 2.5fr 28fr 4fr;
+  gap: 5px;
+  white-space: nowrap;
+  font-size: 13.5px;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.nav-item a {
+  margin: 0 10px;
+}
+
+.dot-menu-icon-wrapper {
+  font-size: 18px;
+}
+
+.user-icon-wrapper {
+  font-size: 32px;
+}
+
+.nav-item .user-icon-wrapper {
+  color: blue;
+}
+
+.body-container {
+  display: grid;
+  grid-template-rows: 4.3fr auto 5.7fr;
+}
+
+.body-item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  display: grid;
+  white-space: nowrap;
+  background-color: rgb(240, 240, 240);
+}
+
+img {
+  height: 92px;
+  margin-bottom: 25px;
+}
+
+a {
+  text-decoration: none;
+  letter-spacing: 0;
+}
+
+.navbar-container a:hover {
+  text-decoration: underline;
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
+}
+
+.body-item-three a {
+  margin: 0 10px;
+  padding: 10px 15px;
+}
+
+.body-item-three a:hover {
+  margin: 0 8px;
+  padding: 8px 15px;
+  border: 2px solid rgb(218, 221, 225);
+  border-radius: 5px;
+}
+
+.body-item-one {
+  align-items: flex-end;
+}
+
+.body-item-two {
+  justify-self: center;
+  align-items: center;
+  border: 1px solid rgb(218, 221, 225);
+  border-radius: 24px;
+  width: 584px;
+  height: 44px;
+  font-size: 16px;
+}
+
+.body-item-two i {
+  color: rgb(143, 150, 156);
+}
+
+.fa-microphone {
+  font-size: 20px;
+}
+
+.body-item-two:hover {
+  box-shadow: 0px 2px 3px 0.5px rgba(218, 218, 219);
+}
+
+.body-item-three {
+  padding-top: 30px;
+  align-items: flex-start;
+}
+
+input {
+  border: none;
+  background: transparent;
+  margin: 0 15px;
+  width: 487px;
+  height: 39px;
+  font-size: 16px;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+a,
+a:visited {
+  color: black;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 4fr 14fr 3fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.footer-item-two {
+  margin-right: 80px;
+}
+
+.footer-item-two > a > i {
+  color: rgb(117, 194, 72);
+}
+
+.footer-container a {
+  margin: 0 12px;
+}

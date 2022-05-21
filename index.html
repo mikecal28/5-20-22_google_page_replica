@@ -1,0 +1,99 @@
+<!-- /* Assignments for 5/20/2022 - Due Monday
+Go through the grid gardens game - https://cssgridgarden.com/
+
+Replicate the google.com landing page.
+- Make a replica as close as you possibly can using all of the tools we've gone over so far.
+- Use CSS Grid for the page layout.
+- I want actual links (though they can be dead), and icons that are closely related to what you see on the page, etc....
+
+hint on the input:
+ - style divs around the sides of the input to match it so you can use the icons a bit easier.
+*/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Replica</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page-container">
+      <div class="navbar-container">
+        <div class="nav-item">
+          <a href="#">About</a>
+          <a href="#">Store</a>
+        </div>
+        <div class="nav-item"></div>
+        <div class="nav-item">
+          <a href="#">Gmail</a>
+          <a href="#">Images</a>
+          <a href="#">
+            <i class="fa-solid fa-ellipsis-vertical dot-menu-icon-wrapper"></i>
+            <i class="fa-solid fa-ellipsis-vertical dot-menu-icon-wrapper"></i>
+            <i class="fa-solid fa-ellipsis-vertical dot-menu-icon-wrapper"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-circle-user user-icon-wrapper"></i>
+          </a>
+        </div>
+      </div>
+      <div class="body-container">
+        <div class="body-item body-item-one">
+          <img
+            src="./images/googlelogo_color_272x92dp.png"
+            alt="Google Main Logo"
+          />
+        </div>
+        <div class="body-item body-item-two">
+          <label for="search-query">
+            <a href="#">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+          </label>
+          <input type="text" name="search-query" />
+          <a href="#">
+            <i class="fa-solid fa-microphone"></i>
+          </a>
+        </div>
+        <div class="body-item body-item-three">
+          <a href="#">Google Search</a>
+          <a href="#">I'm Feeling Lucky</a>
+        </div>
+      </div>
+      <div class="footer-container">
+        <div class="footer-item footer-item-one">
+          <a href="#">Advertising</a>
+          <a href="#">Business</a>
+          <a href="#">How Search Works</a>
+        </div>
+        <div class="footer-item footer-item-two">
+          <a href="#">
+            <i class="fa-brands fa-envira"></i>
+            Carbon neutral since 2007
+          </a>
+        </div>
+        <div class="footer-item footer-item-three">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+          <a href="#">Settings</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
