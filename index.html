@@ -17,7 +17,8 @@ hint on the input:
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google Replica</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/media-queries.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -61,15 +62,17 @@ hint on the input:
           />
         </div>
         <div class="body-item body-item-two">
-          <label for="search-query">
+          <div class="search-bar">
+            <label for="search-query">
+              <a href="#">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+            </label>
+            <input type="text" name="search-query" />
             <a href="#">
-              <i class="fa-solid fa-magnifying-glass"></i>
+              <i class="fa-solid fa-microphone"></i>
             </a>
-          </label>
-          <input type="text" name="search-query" />
-          <a href="#">
-            <i class="fa-solid fa-microphone"></i>
-          </a>
+          </div>
         </div>
         <div class="body-item body-item-three">
           <a href="#">Google Search</a>
